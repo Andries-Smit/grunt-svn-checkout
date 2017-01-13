@@ -49,7 +49,8 @@ grunt.initConfig({
           repo: 'https://svn.example.com/something/'
         },
         {
-          path: ['another', 'path'] // another/path/
+          path: ['another', 'path'], // another/path/
+          dir: 'branch', // When dir is not profided, the last section is of the repo url is used
           repo: 'https://svn.example.com/something-else/'
         }
       ]
